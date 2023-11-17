@@ -1,0 +1,5 @@
+<html>
+<title>marquee </title>
+<body>
+<marque>direction="left">
+</marque>

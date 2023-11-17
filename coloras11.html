@@ -1,0 +1,16 @@
+<html>
+<body>
+<center>
+<button onclick="changecolor()">change </button>
+</center>
+<script>{
+  var colorindex=0;
+  var colors = ["green","blue","red","white"];
+   function changecolor(){
+   document.body.style.backgroundcolor=colors[colorindex];
+     colorindex=(colorindex+1)%colors.length;
+	 
+	}
+</script>
+</body>
+</html>
